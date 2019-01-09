@@ -5,18 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet">
     <title>Tony Wu</title>
 </head>
 <body> 
    <div class="container">
-       <div class="row"></div>
+       <div class="row navi">
        <!-- 第一种情况：尺寸》=1200px;那么会选择.col-lg。 -->
      <!-- 第二种情况：尺寸》=992px 并且尺寸《=1200px;那么会选择.col-md。 -->
      <!-- 第三种情况：如果尺寸《992px;那么这两个样式类都将不会作用于元素上（.col-sm） -->
      <!-- 具体的数值在https://blog.csdn.net/sinat_34719507/article/details/53472054 -->
      <!-- * 意味着占12 列  -->
-      <div class="nav col-lg-*"></div>
+      <div class="first_name col-xs-1 col-sm-1 col-md-1 col-lg-1">Zhitao</div> 
+      <div class="last_name col-xs-1 col-sm-1 col-md-1 col-lg-1">Wu</div> 
+      <div class="col-xs-5 col-sm-5 col-md-5 col-lg-5"></div>
+      <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"><a class="list" href="#">Home</a></div>
+      <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"><a class="list" href="#">Resume</a></div>
+      <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"><a class="list" href="#">Services</a></div>
+      <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"><a class="list" href="#">Blog</a></div>
+      <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"><a class="list" href="#">Contact</a></div>
+    </div>
+      <div class="row banner">
+      <img class="photo" src="./images/photo.png" alt="my photo">
+      <h1 id="my_name">Zhitao Wu</h1>
+      </div>
    </div>
+    <script src="./js/index.js"></script>
     <script src="./js/bootstrap.min.js">
     </script>
 </body>
