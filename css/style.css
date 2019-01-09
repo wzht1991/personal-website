@@ -47,7 +47,43 @@ body {
 .container .banner #my_name {
   position: absolute;
   color: #ffffff;
-  left: 200px;
+  left: 500px;
+  top: 130px;
+}
+.container .banner #job {
+  position: absolute;
+  color: #ffffff;
+  left: 520px;
+  top: 200px;
+}
+.container .banner #twitter {
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  left: 530px;
+  top: 250px;
+}
+.container .banner #facebook {
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  left: 570px;
+  top: 255px;
+}
+.container .banner #github {
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  left: 605px;
+  top: 255px;
+}
+.container .personal_detail {
+  position: absolute;
+  top: 480px;
+}
+.container .personal_detail #me {
+  margin-left: 6px;
+  color: #191970;
 }
 
 /*# sourceMappingURL=style.css.map */

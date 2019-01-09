@@ -54,7 +54,43 @@ body{
     #my_name{
         position: absolute;
         color:#ffffff;
-        left: 200px;
+        left: 500px;
+        top: 130px;
     }
+    #job{
+        position: absolute;
+        color:#ffffff; 
+        left: 520px;
+        top: 200px;
+    }
+    #twitter{
+        position: absolute;
+        height: 40px;
+        width: 40px;
+        left: 530px;
+        top: 250px;
+    }
+    #facebook{
+        position: absolute;
+        height: 30px;
+        width: 30px;
+        left: 570px;
+        top: 255px;
+    }
+    #github{
+        position: absolute;
+        height: 30px;
+        width: 30px;
+        left: 605px;
+        top: 255px;
+    }
+ }
+ .personal_detail{
+     position: absolute;
+     top:480px;
+     #me{
+         margin-left: 6px;
+         color: #191970;
+     }
  }
 }
