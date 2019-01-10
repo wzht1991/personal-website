@@ -85,5 +85,26 @@ body {
   margin-left: 6px;
   color: #191970;
 }
+.container .details {
+  margin-left: 80px;
+}
+.container .details .detail {
+  color: black;
+}
+.container .details .detail_value1 {
+  margin-left: 100px;
+}
+.container .details .detail_value2 {
+  margin-left: 57px;
+}
+.container .details .detail_value3 {
+  margin-left: 70px;
+}
+.container .details .detail_value4 {
+  margin-left: 83px;
+}
+.container .details .detail_value5 {
+  margin-left: 83px;
+}
 
 /*# sourceMappingURL=style.css.map */
